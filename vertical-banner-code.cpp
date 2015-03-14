@@ -131,8 +131,8 @@ void banner(char c)
     case 'Z':cout<<endl<<"";
     break;
 
-    default:cout<<endl<<"not a valid string for the banner.";
-	    cout<<endl<<"press enter to reset:";getch();main();
+    default: ;//cout<<endl<<"not a valid string for the banner.";
+	     //cout<<endl<<"press enter to reset:";getch();
 
   }
 }
