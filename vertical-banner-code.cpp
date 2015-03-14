@@ -1,9 +1,30 @@
 /*This code generates a banner from the provided string just like the banner created by the unix terminal.*/
 
 #include<iostream.h>
-#include<conio..h>
+#include<conio.h>
 #include<stdlib.h>
+void banner(char);
 
+void main()
+{ clrscr();
+
+  char str[50]; //initiallising the string array.
+  cout<<endl<<"Enter the string: ";
+  cin>>str; //asking user to enter the string they want to convert to a banner.
+
+  for(int i=0;i<50;i++)
+  { banner(str[i]); //producing the banner for individual characters of the string that user entered.
+  }
+
+  char ch=' '; //asking the user if they wanna try the code again.
+  cout<<endl<<"Wanna try again? [y/n]::";
+  cin>>ch;
+  if(ch=='y'||ch=='Y'){main();}
+  else if(ch=='n'||ch=='Y'){exit(1);}
+  getch();
+}
+
+// function that generates the banner.
 void banner(char c)
 { switch(c)
   { case 'a':
@@ -111,25 +132,7 @@ void banner(char c)
     break;
 
     default:cout<<endl<<"not a valid string for the banner.";
-            cout<<endl<<"press enter to reset:";getch();main();
+	    cout<<endl<<"press enter to reset:";getch();main();
 
   }
-}
-void main()
-{ clrscr();
-
-  char str[50]; //initiallising the string array.
-  cout<<endl<<"Enter the string: ";
-  cin>>str; //asking user to enter the string they want to convert to a banner.
-
-  for(int i=0;i<50;i++)
-  { banner(str[i]); //producing the banner for individual characters of the string that user entered.
-  }
-
-  char ch=' '; //asking the user if they wanna try the code again.
-  cout<<endll<<"Wanna try again? [y/n]::";
-  cin>>ch;
-  if(ch=='y'||ch=='Y'){main();}
-  else if(ch=='n'||ch=='Y'){exit(1);}
-  getch();
 }
