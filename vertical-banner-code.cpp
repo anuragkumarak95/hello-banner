@@ -28,111 +28,111 @@ void main()
 void banner(char c)
 { switch(c)
   { case 'a':
-    case 'A':cout<<endl<<"";
+    case 'A':cout<<endl<<"--/\\--\n-/--\\-\n|----|\n|____|\n|----|\n|----|\n|----|";
     break;
 
     case 'b':
-    case 'B':cout<<endl<<"";
+    case 'B':cout<<endl<<"-_____-\n|-----\\\n|-----|\n|_____/\n|-----\\\n|-----|\n|_____/";
     break;
 
     case 'c':
-    case 'C':cout<<endl<<"";
+    case 'C':cout<<endl<<"-_____\n|-----\n|-----\n|-----\n|-----\n|-----\n|_____";
     break;
 
     case 'd':
-    case 'D':cout<<endl<<"";
+    case 'D':cout<<endl<<"-_____-\n|-----\\\n|-----|\n|-----|\n|-----|\n|-----|\n|_____/";
     break;
 
     case 'e':
-    case 'E':cout<<endl<<"";
+    case 'E':cout<<endl<<"-_____\n|-----\n|-----\n|__---\n|-----\n|-----\n|_____";
     break;
 
     case 'f':
-    case 'F':cout<<endl<<"";
+    case 'F':cout<<endl<<"-_____\n|-----\n|-----\n|__---\n|-----\n|-----\n|-----";
     break;
 
     case 'g':
-    case 'G':cout<<endl<<"";
+    case 'G':cout<<endl<<"-____-\n/----\\\n|-----\n|--__-\n|----\\\n|----|\n\\____/";
     break;
 
     case 'h':
-    case 'H':cout<<endl<<"";
+    case 'H':cout<<endl<<"|----|\n|----|\n|____|\n|----|\n|----|\n|----|";
     break;
 
     case 'i':
-    case 'I':cout<<endl<<"";
+    case 'I':cout<<endl<<"---|--\n---|--\n---|--\n---|--\n---|--\n---|--\n---|--";
     break;
 
     case 'j':
-    case 'J':cout<<endl<<"";
+    case 'J':cout<<endl<<"---|--\n---|--\n---|--\n---|--\n---|--\n---|--\n\\__|--";
     break;
 
     case 'k':
-    case 'K':cout<<endl<<"";
+    case 'K':cout<<endl<<"|----/\n|---/-\n|--/--\n|-/---\n|--\\--\n|---\\-\n|----\\";
     break;
 
     case 'l':
-    case 'L':cout<<endl<<"";
+    case 'L':cout<<endl<<"|-----\n|-----\n|-----\n|-----\n|-----\n|-----\n|_____";
     break;
 
     case 'm':
-    case 'M':cout<<endl<<"";
+    case 'M':cout<<endl<<"-/\\-/\\-\n|--|--|\n|--|--|\n|--|--|\n|-----|\n|-----|\n|-----|";
     break;
 
     case 'n':
-    case 'N':cout<<endl<<"";
+    case 'N':cout<<endl<<"|\\---|\n|-\\--|\n|--\\-|\n|---\\|\n|----|\n|----|\n|----|";
     break;
 
     case 'o':
-    case 'O':cout<<endl<<"";
+    case 'O':cout<<endl<<"-____-\n|----|\n|----|\n|----|\n|----|\n|----|\n|____|";
     break;
 
     case 'p':
-    case 'P':cout<<endl<<"";
+    case 'P':cout<<endl<<"-____-\n|----|\n|----|\n|____|\n|-----\n|-----\n|-----";
     break;
 
     case 'q':
-    case 'Q':cout<<endl<<"";
+    case 'Q':cout<<endl<<"-____-\n|----|\n|----|\n|----|\n|----|\n|---\\|\n|____\\";
     break;
 
     case 'r':
-    case 'R':cout<<endl<<"";
+    case 'R':cout<<endl<<"-____-\n|----|\n|----|\n|____|\n|-\\---\n|--\\--\n|---\\-";
     break;
 
     case 'S':
-    case 's':cout<<endl<<"";
+    case 's':cout<<endl<<"-____-\n|----|\n|-----\n|____-\n-----|\n-----|\n|____|";
     break;
 
     case 't':
-    case 'T':cout<<endl<<"";
+    case 'T':cout<<endl<<"_____\n--|--\n--|--\n--|--\n--|--\n--|--\n--|--";
     break;
 
     case 'u':
-    case 'U':cout<<endl<<"";
+    case 'U':cout<<endl<<"|----|\n|----|\n|----|\n|----|\n|----|\n|----|\n|____|";
     break;
 
     case 'v':
-    case 'V':cout<<endl<<"";
+    case 'V':cout<<endl<<"|----|\n|----|\n|----|\n|----|\n|----|\n-\\--/-\n--\\/--";
     break;
 
     case 'w':
-    case 'W':cout<<endl<<"";
+    case 'W':cout<<endl<<"|-----|\n|-----|\n|-----|\n|--|--|\n|--|--|\n|--|--|\n-\\/-\\/-";
     break;
 
     case 'x':
-    case 'X':cout<<endl<<"";
+    case 'X':cout<<endl<<"\\-----/\n-\\---/-\n--\\-/--\n---\\---\n--/-\\--\n-/---\\-\n/-----\\";
     break;
 
     case 'y':
-    case 'Y':cout<<endl<<"";
+    case 'Y':cout<<endl<<"\\-----/\n-\\---/-\n--\\-/--\n---|---\n---|---\n---|---\n---|---";
     break;
 
     case 'z':
-    case 'Z':cout<<endl<<"";
+    case 'Z':cout<<endl<<"_______\n------|\n-----/-\n----/--\n---/---\n--/----\n-/-----\n|______";
     break;
 
     default: ;//cout<<endl<<"not a valid string for the banner.";
 	     //cout<<endl<<"press enter to reset:";getch();
-
+    break;
   }
 }
