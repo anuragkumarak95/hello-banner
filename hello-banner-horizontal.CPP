@@ -6,18 +6,22 @@ and only alphabetic characters. thank you.*/
 #include<conio.h>
 #include<fstream.h>
 #include<stdlib.h>
+#include<ctype.h>
 
 ifstream file("chart.TXT",ios::nocreate);//connecting the database file.
 void main(){
 clrscr();
 char str[10]={' ',' ',' ',' ',' ',' ',' ',' ',' ',' '};
 int c=0;
-cout<<endl<<"Enter the word that you want to convert to banner. :\n"
-    <<"[only single word and alphabets only to be inputed.]::";
+cout<<endl<<"Enter the word that you want to convert to banner:\n"
+    <<"[only single word and alphabets only to be inputed]::";
 cin>>str;
+cout<<endl<<endl;
 for(int i=0;i<7;i++)//loop for each line of all characters.
-{ for(int j=0;j<10;j++)//loop for ech characters.
-  { if(str[j]!=' '){c=0;
+{ for(int j=0;j<10;++j)//loop for ech characters.
+  {
+    if(isalnum(str[j])){c=0;
+    //cout<<str[j];
     switch(str[j])//switch for the alphabetic initial line count in the database.
     { case 'a':
       case 'A':c=0;
